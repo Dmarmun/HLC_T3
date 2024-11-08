@@ -1,3 +1,17 @@
 body {
   font-family: "Doto", sans-serif;
+  background-color: rgb(208, 255, 255);
 }
+.formulario {
+  margin-top: 1.5%;
+  margin-left: 13%; 
+  margin-right: 13%;
+  padding-left: 2%; 
+  padding-right: 2%;
+  padding-bottom: 1%;
+  background-color: white; 
+  color:  rgb(0, 184, 190);
+  border-radius: 1.1%;
+}
+.titulo  {text-align: center; color: rgb(0, 184, 190);}
+.generales {text-align: center;}
