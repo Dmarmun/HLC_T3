@@ -4,8 +4,8 @@ body {
 }
 .formulario {
   margin-top: 1.5%;
-  margin-left: 13%; 
-  margin-right: 13%;
+  margin-left: 10%; 
+  margin-right: 10%;
   padding-left: 2%; 
   padding-right: 2%;
   padding-bottom: 1%;
@@ -17,13 +17,21 @@ body {
 .titulo  {text-align: center;}
 .generales {text-align: center;}
 .container {
+  display: flex;
   margin-top: 1.5%;
-  margin-left: 13%; 
-  margin-right: 13%;
+  margin-left: 10%; 
+  margin-right: 10%;
   padding-left: 2%; 
   padding-right: 2%;
   padding-bottom: 1%;
   background-color: rgb(232, 254, 255);
 }
-.item {}
+.item {
+  height: 100%;
+  width: 100%;
+  transition: 0.3;
+  justify-content: center;
+  background-color: #9edfe3;
+  padding: 0px 15px 0 15px;
+  }
 .individuales {text-align: center;}
